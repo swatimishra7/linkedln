@@ -59,3 +59,67 @@ Here’s a preview of the UI and the app in action:
 ```bash
 git clone https://github.com/<your-username>/project-genai-post-generator.git
 cd project-genai-post-generator
+2️⃣ Create & Activate Virtual Environment
+python -m venv .venv
+.\.venv\Scripts\activate
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Add Your API Key
+
+Create a .env file in the project root:
+
+GROQ_API_KEY=your_api_key_here
+
+
+🔑 Get your API key from Groq Console
+
+5️⃣ Run the App
+streamlit run main.py
+
+
+Your app will open at:
+
+http://localhost:8501
+
+💡 Example Workflow
+
+Upload or paste your past LinkedIn posts.
+
+The tool extracts topics and learns your writing style.
+
+Select a topic, choose post length and tone.
+
+Click Generate → get your AI-written post instantly.
+
+🧑‍💻 Developer Info
+
+👩‍💻 Swati Rajkumar Mishra
+AI Agent Developer • Agentic AI Specialist • LangChain Expert
+
+💼 Building real-world Agentic AI applications with LangChain, Groq, and Hugging Face
+
+🎓 Pursuing BE in Computer Engineering, Mumbai University
+
+🌐 Portfolio: swati-mishra-portfolio-glow.lovable.app
+
+⚠️ License & Terms
+
+This project is licensed under the MIT License.
+Commercial use requires prior written consent from the author.
+Attribution must be given in all copies or substantial portions of the software.
+
+© 2025 Swati Rajkumar Mishra. All rights reserved.
+
+🌟 Future Enhancements
+
+Integrate LinkedIn API for auto-fetching posts.
+
+Add voice-to-post generation using Whisper or Speech-to-Text.
+
+Implement AI personality profiles for tone consistency.
+
+⭐ If you like this project, don’t forget to star this repo and share it with your fellow creators!
+
+Made with ❤️ by Swati
